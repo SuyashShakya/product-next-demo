@@ -7,9 +7,7 @@ const ProductList = ({item}) => {
     return (
         <div className={classes.cardList}>
             {item.map((item, index) => (
-                <Link href={`/${index}`}>
                     <ProductItem item={item} />
-                </Link>
             ))}
         </div>
     )
